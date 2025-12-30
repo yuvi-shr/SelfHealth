@@ -2,4 +2,35 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Health App Colors -->
+    <color name="primary_blue">#4A90E2</color>
+    <color name="primary_blue_dark">#357ABD</color>
+    <color name="primary_blue_light">#6BA8ED</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_red">#F44336</color>
+    <color name="accent_orange">#FF9800</color>
+    
+    <!-- Card and Background Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="background_light">#F5F7FA</color>
+    <color name="background_primary">#E8F4FF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_title">#1A237E</color>
+    
+    <!-- Button Colors -->
+    <color name="button_primary">#4A90E2</color>
+    <color name="button_primary_pressed">#357ABD</color>
+    <color name="button_secondary">#E0E0E0</color>
+    
+    <!-- Value Colors for Health Metrics -->
+    <color name="value_weight">#2196F3</color>
+    <color name="value_blood_pressure">#F44336</color>
+    <color name="value_heart_rate">#E91E63</color>
+    <color name="value_notes">#607D8B</color>
 </resources>

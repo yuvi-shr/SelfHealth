@@ -3,54 +3,74 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/background_light">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/card_background"
+        android:padding="20dp">
 
         <TextView
             android:id="@+id/textDialogTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Add Health Record"
-            android:textSize="20sp"
+            android:textSize="22sp"
             android:textStyle="bold"
-            android:layout_marginBottom="16dp" />
+            android:textColor="@color/text_title"
+            android:layout_marginBottom="20dp" />
 
         <EditText
             android:id="@+id/editWeight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="16dp"
             android:hint="Weight (kg)"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/text_secondary"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"
+            android:backgroundTint="@color/value_weight" />
 
         <EditText
             android:id="@+id/editBloodPressure"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="16dp"
             android:hint="Blood Pressure (e.g., 120/80)"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="@color/text_secondary"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"
+            android:backgroundTint="@color/value_blood_pressure" />
 
         <EditText
             android:id="@+id/editHeartRate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="16dp"
             android:hint="Heart Rate (bpm)"
-            android:inputType="number" />
+            android:inputType="number"
+            android:textColorHint="@color/text_secondary"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"
+            android:backgroundTint="@color/value_heart_rate" />
 
         <EditText
             android:id="@+id/editNotes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="20dp"
             android:hint="Notes (optional)"
             android:inputType="textMultiLine"
-            android:maxLines="3" />
+            android:maxLines="3"
+            android:textColorHint="@color/text_secondary"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"
+            android:backgroundTint="@color/value_notes" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -63,13 +83,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cancel"
-                android:layout_marginEnd="8dp" />
+                android:textColor="@color/text_secondary"
+                android:backgroundTint="@color/button_secondary"
+                android:layout_marginEnd="12dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp" />
 
             <Button
                 android:id="@+id/buttonSave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Save" />
+                android:text="Save"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/button_primary"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp" />
 
         </LinearLayout>
 
